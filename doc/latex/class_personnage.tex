@@ -1,0 +1,306 @@
+\hypertarget{class_personnage}{}\doxysection{Personnage Class Reference}
+\label{class_personnage}\index{Personnage@{Personnage}}
+
+
+{\ttfamily \#include $<$Personnage.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_personnage_abec36eb0310adc71f3375297fc590c65}{Personnage}} ()
+\begin{DoxyCompactList}\small\item\em Tableau de bombes du personnage. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_personnage_a555b3ac5fb4989f32aa9dea002a0a2eb}{Personnage}} (unsigned int x, unsigned int y)
+\begin{DoxyCompactList}\small\item\em Création du personnage de l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_personnage_a05bdf2a469885bb1fbb6c2e8f98972ab}{$\sim$\+Personnage}} ()
+\begin{DoxyCompactList}\small\item\em Destruction du personnage de l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_personnage_ae1ba4f7e0442a8f7992256473a6b87ba}{get\+Vivant}} () const
+\begin{DoxyCompactList}\small\item\em Permet de placer une bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_af83d888f66b54ee15be2d3dbe865b46f}{set\+Vivant}} (bool vie)
+\begin{DoxyCompactList}\small\item\em Mutateur pour la vie du personnage. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_personnage_a0ba070c6971d0c8a271097c44bf1f075}{get\+PosX}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la position en X. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_personnage_aaf21572d08729ba06b3a9970785f3322}{get\+PosY}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la position en Y. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_personnage_a23e48ed445b905f37c113b82dd3b3131}{get\+VitesseX}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la vitesse en X. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_personnage_a8b4bb33a0b81059190e3b6a01dbaa867}{get\+VitesseY}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la vitesse en Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a3e9de57e6777f4c98c2d9e5e0b5cdea1}{set\+PosX}} (const unsigned int \&x)
+\begin{DoxyCompactList}\small\item\em Mutateur pour la position en X. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a35b34014754ff70c93b1eef7092f49ec}{set\+PosY}} (const unsigned int \&y)
+\begin{DoxyCompactList}\small\item\em Mutateur pour la position en Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_acc9d6187ef47ff09769ce5114331d75f}{set\+Vitesse}} (const float \&x, const float \&y)
+\begin{DoxyCompactList}\small\item\em Mutateur pour la vitesse en X, Y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a5a5122e6a0bafc7536e09627d5e7a862}{deplacement}} ()
+\begin{DoxyCompactList}\small\item\em Déplacement du personnage. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a4c9b5a28fac98e5b483d472126bb39bc}{gauche}} (const \mbox{\hyperlink{class_terrain}{Terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em Décremente la position en x. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a5abb320aa92f07f079bce3376b5ee5df}{droite}} (const \mbox{\hyperlink{class_terrain}{Terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em Incrémente la position en x. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_ac07c2300aefca2ec9a0878ee3e6d3e22}{haut}} (const \mbox{\hyperlink{class_terrain}{Terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em Décremente la position en y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a181c345830e7d3f5c2c9047a9a57ff82}{bas}} (const \mbox{\hyperlink{class_terrain}{Terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em Décremente la position en y. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personnage_a8b827a72e42d38de1b6d29dee145a4b5}{test\+Regression}} ()
+\begin{DoxyCompactList}\small\item\em Test de regression. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_personnage_ab77b5b2bdd0282f58565e82b5ac4f36a}{vivant}}
+\begin{DoxyCompactList}\small\item\em Booléen pour savoir si le joueur est en vie. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_personnage_a074a441d548cf0b33d32691da77245ae}{posX}}
+\begin{DoxyCompactList}\small\item\em Position en X et Y du personnage. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_personnage_a748f70a58482f238d4578c5c64108f68}{posY}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_personnage_abec36eb0310adc71f3375297fc590c65}\label{class_personnage_abec36eb0310adc71f3375297fc590c65}} 
+\index{Personnage@{Personnage}!Personnage@{Personnage}}
+\index{Personnage@{Personnage}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{Personnage()}{Personnage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Personnage\+::\+Personnage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tableau de bombes du personnage. 
+
+Les composantes d\textquotesingle{}une couleur \mbox{\Hypertarget{class_personnage_a555b3ac5fb4989f32aa9dea002a0a2eb}\label{class_personnage_a555b3ac5fb4989f32aa9dea002a0a2eb}} 
+\index{Personnage@{Personnage}!Personnage@{Personnage}}
+\index{Personnage@{Personnage}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{Personnage()}{Personnage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Personnage\+::\+Personnage (\begin{DoxyParamCaption}\item[{unsigned int}]{x,  }\item[{unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Création du personnage de l\textquotesingle{}utilisateur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: entier \\
+\hline
+{\em y} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_personnage_a05bdf2a469885bb1fbb6c2e8f98972ab}\label{class_personnage_a05bdf2a469885bb1fbb6c2e8f98972ab}} 
+\index{Personnage@{Personnage}!````~Personnage@{$\sim$Personnage}}
+\index{````~Personnage@{$\sim$Personnage}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{$\sim$Personnage()}{~Personnage()}}
+{\footnotesize\ttfamily Personnage\+::$\sim$\+Personnage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destruction du personnage de l\textquotesingle{}utilisateur. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_personnage_a181c345830e7d3f5c2c9047a9a57ff82}\label{class_personnage_a181c345830e7d3f5c2c9047a9a57ff82}} 
+\index{Personnage@{Personnage}!bas@{bas}}
+\index{bas@{bas}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{bas()}{bas()}}
+{\footnotesize\ttfamily void Personnage\+::bas (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_terrain}{Terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+Décremente la position en y. 
+
+\mbox{\Hypertarget{class_personnage_a5a5122e6a0bafc7536e09627d5e7a862}\label{class_personnage_a5a5122e6a0bafc7536e09627d5e7a862}} 
+\index{Personnage@{Personnage}!deplacement@{deplacement}}
+\index{deplacement@{deplacement}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{deplacement()}{deplacement()}}
+{\footnotesize\ttfamily void Personnage\+::deplacement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Déplacement du personnage. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_terrain}{Terrain}}} & \+: classe \mbox{\hyperlink{class_terrain}{Terrain}} \\
+\hline
+{\em x} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_personnage_a5abb320aa92f07f079bce3376b5ee5df}\label{class_personnage_a5abb320aa92f07f079bce3376b5ee5df}} 
+\index{Personnage@{Personnage}!droite@{droite}}
+\index{droite@{droite}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{droite()}{droite()}}
+{\footnotesize\ttfamily void Personnage\+::droite (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_terrain}{Terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+Incrémente la position en x. 
+
+\mbox{\Hypertarget{class_personnage_a4c9b5a28fac98e5b483d472126bb39bc}\label{class_personnage_a4c9b5a28fac98e5b483d472126bb39bc}} 
+\index{Personnage@{Personnage}!gauche@{gauche}}
+\index{gauche@{gauche}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{gauche()}{gauche()}}
+{\footnotesize\ttfamily void Personnage\+::gauche (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_terrain}{Terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+Décremente la position en x. 
+
+\mbox{\Hypertarget{class_personnage_a0ba070c6971d0c8a271097c44bf1f075}\label{class_personnage_a0ba070c6971d0c8a271097c44bf1f075}} 
+\index{Personnage@{Personnage}!getPosX@{getPosX}}
+\index{getPosX@{getPosX}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{getPosX()}{getPosX()}}
+{\footnotesize\ttfamily int Personnage\+::get\+PosX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la position en X. 
+
+\mbox{\Hypertarget{class_personnage_aaf21572d08729ba06b3a9970785f3322}\label{class_personnage_aaf21572d08729ba06b3a9970785f3322}} 
+\index{Personnage@{Personnage}!getPosY@{getPosY}}
+\index{getPosY@{getPosY}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{getPosY()}{getPosY()}}
+{\footnotesize\ttfamily int Personnage\+::get\+PosY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la position en Y. 
+
+\mbox{\Hypertarget{class_personnage_a23e48ed445b905f37c113b82dd3b3131}\label{class_personnage_a23e48ed445b905f37c113b82dd3b3131}} 
+\index{Personnage@{Personnage}!getVitesseX@{getVitesseX}}
+\index{getVitesseX@{getVitesseX}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{getVitesseX()}{getVitesseX()}}
+{\footnotesize\ttfamily int Personnage\+::get\+VitesseX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la vitesse en X. 
+
+\mbox{\Hypertarget{class_personnage_a8b4bb33a0b81059190e3b6a01dbaa867}\label{class_personnage_a8b4bb33a0b81059190e3b6a01dbaa867}} 
+\index{Personnage@{Personnage}!getVitesseY@{getVitesseY}}
+\index{getVitesseY@{getVitesseY}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{getVitesseY()}{getVitesseY()}}
+{\footnotesize\ttfamily int Personnage\+::get\+VitesseY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la vitesse en Y. 
+
+\mbox{\Hypertarget{class_personnage_ae1ba4f7e0442a8f7992256473a6b87ba}\label{class_personnage_ae1ba4f7e0442a8f7992256473a6b87ba}} 
+\index{Personnage@{Personnage}!getVivant@{getVivant}}
+\index{getVivant@{getVivant}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{getVivant()}{getVivant()}}
+{\footnotesize\ttfamily bool Personnage\+::get\+Vivant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Permet de placer une bombe. 
+
+Accesseur pour la vie du personnage \mbox{\Hypertarget{class_personnage_ac07c2300aefca2ec9a0878ee3e6d3e22}\label{class_personnage_ac07c2300aefca2ec9a0878ee3e6d3e22}} 
+\index{Personnage@{Personnage}!haut@{haut}}
+\index{haut@{haut}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{haut()}{haut()}}
+{\footnotesize\ttfamily void Personnage\+::haut (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_terrain}{Terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+Décremente la position en y. 
+
+\mbox{\Hypertarget{class_personnage_a3e9de57e6777f4c98c2d9e5e0b5cdea1}\label{class_personnage_a3e9de57e6777f4c98c2d9e5e0b5cdea1}} 
+\index{Personnage@{Personnage}!setPosX@{setPosX}}
+\index{setPosX@{setPosX}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{setPosX()}{setPosX()}}
+{\footnotesize\ttfamily void Personnage\+::set\+PosX (\begin{DoxyParamCaption}\item[{const unsigned int \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Mutateur pour la position en X. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_personnage_a35b34014754ff70c93b1eef7092f49ec}\label{class_personnage_a35b34014754ff70c93b1eef7092f49ec}} 
+\index{Personnage@{Personnage}!setPosY@{setPosY}}
+\index{setPosY@{setPosY}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{setPosY()}{setPosY()}}
+{\footnotesize\ttfamily void Personnage\+::set\+PosY (\begin{DoxyParamCaption}\item[{const unsigned int \&}]{y }\end{DoxyParamCaption})}
+
+
+
+Mutateur pour la position en Y. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_personnage_acc9d6187ef47ff09769ce5114331d75f}\label{class_personnage_acc9d6187ef47ff09769ce5114331d75f}} 
+\index{Personnage@{Personnage}!setVitesse@{setVitesse}}
+\index{setVitesse@{setVitesse}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{setVitesse()}{setVitesse()}}
+{\footnotesize\ttfamily void Personnage\+::set\+Vitesse (\begin{DoxyParamCaption}\item[{const float \&}]{x,  }\item[{const float \&}]{y }\end{DoxyParamCaption})}
+
+
+
+Mutateur pour la vitesse en X, Y. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: entier \\
+\hline
+{\em y} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_personnage_af83d888f66b54ee15be2d3dbe865b46f}\label{class_personnage_af83d888f66b54ee15be2d3dbe865b46f}} 
+\index{Personnage@{Personnage}!setVivant@{setVivant}}
+\index{setVivant@{setVivant}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{setVivant()}{setVivant()}}
+{\footnotesize\ttfamily void Personnage\+::set\+Vivant (\begin{DoxyParamCaption}\item[{bool}]{vie }\end{DoxyParamCaption})}
+
+
+
+Mutateur pour la vie du personnage. 
+
+\mbox{\Hypertarget{class_personnage_a8b827a72e42d38de1b6d29dee145a4b5}\label{class_personnage_a8b827a72e42d38de1b6d29dee145a4b5}} 
+\index{Personnage@{Personnage}!testRegression@{testRegression}}
+\index{testRegression@{testRegression}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{testRegression()}{testRegression()}}
+{\footnotesize\ttfamily void Personnage\+::test\+Regression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test de regression. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_personnage_a074a441d548cf0b33d32691da77245ae}\label{class_personnage_a074a441d548cf0b33d32691da77245ae}} 
+\index{Personnage@{Personnage}!posX@{posX}}
+\index{posX@{posX}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{posX}{posX}}
+{\footnotesize\ttfamily unsigned int Personnage\+::posX}
+
+
+
+Position en X et Y du personnage. 
+
+\mbox{\Hypertarget{class_personnage_a748f70a58482f238d4578c5c64108f68}\label{class_personnage_a748f70a58482f238d4578c5c64108f68}} 
+\index{Personnage@{Personnage}!posY@{posY}}
+\index{posY@{posY}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{posY}{posY}}
+{\footnotesize\ttfamily unsigned int Personnage\+::posY}
+
+\mbox{\Hypertarget{class_personnage_ab77b5b2bdd0282f58565e82b5ac4f36a}\label{class_personnage_ab77b5b2bdd0282f58565e82b5ac4f36a}} 
+\index{Personnage@{Personnage}!vivant@{vivant}}
+\index{vivant@{vivant}!Personnage@{Personnage}}
+\doxysubsubsection{\texorpdfstring{vivant}{vivant}}
+{\footnotesize\ttfamily bool Personnage\+::vivant}
+
+
+
+Booléen pour savoir si le joueur est en vie. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/core/\mbox{\hyperlink{_personnage_8h}{Personnage.\+h}}\item 
+src/core/\mbox{\hyperlink{_personnage_8cpp}{Personnage.\+cpp}}\end{DoxyCompactItemize}

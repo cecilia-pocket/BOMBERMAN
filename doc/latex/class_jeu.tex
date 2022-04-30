@@ -1,0 +1,247 @@
+\hypertarget{class_jeu}{}\doxysection{Jeu Class Reference}
+\label{class_jeu}\index{Jeu@{Jeu}}
+
+
+{\ttfamily \#include $<$Jeu.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_jeu_acc5795ee00edf75516d3dfe65be3e6d6}{Jeu}} ()
+\begin{DoxyCompactList}\small\item\em constructeur par défaut de la classe jeu \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_terrain}{Terrain}} \& \mbox{\hyperlink{class_jeu_a4b5b107671761a6bb963475bf4ecc8dd}{get\+Terrain}} ()
+\begin{DoxyCompactList}\small\item\em accesseur \+: permet d\textquotesingle{}accéder au terrain \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_personnage}{Personnage}} \& \mbox{\hyperlink{class_jeu_a1153cc2d3b5d468d3abcc561bb43edfd}{get\+Perso}} (int i)
+\begin{DoxyCompactList}\small\item\em accesseur \+: permet d\textquotesingle{}accéder à un personnage \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bombe}{Bombe}} \& \mbox{\hyperlink{class_jeu_a8e47b08f1abecd748e0dcffad78305a2}{get\+Bombe}} (int j)
+\begin{DoxyCompactList}\small\item\em accesseur \+: permet d\textquotesingle{}accéder à une bombe \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_terrain}{Terrain}} \& \mbox{\hyperlink{class_jeu_af7e7bd59e117f78b9d8623fd76230ca3}{get\+Const\+Terrain}} () const
+\begin{DoxyCompactList}\small\item\em accesseur \+: permet d\textquotesingle{}accéder au terrain \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_personnage}{Personnage}} \& \mbox{\hyperlink{class_jeu_afc74d188743db3d2d4abab9125779edb}{get\+Const\+Perso}} (int i) const
+\begin{DoxyCompactList}\small\item\em accesseur \+: permet d\textquotesingle{}accéder à un personnage \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_bombe}{Bombe}} \& \mbox{\hyperlink{class_jeu_ab967da40a54916418347e8107c2dbd95}{get\+Const\+Bombe}} (int j) const
+\begin{DoxyCompactList}\small\item\em accesseur \+: permet d\textquotesingle{}accéder à une bombe \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_jeu_a33412d6a501c50a273f7da0e7c0b8a97}{update\+Pos\+Bombe}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&po, \mbox{\hyperlink{class_terrain}{Terrain}} \&ter, \mbox{\hyperlink{class_bombe}{Bombe}} \&b)
+\begin{DoxyCompactList}\small\item\em Fonction qui met à jour les positions de la bombe sur le terrain en fonction du personnage. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_jeu_a5b1df4606c4d64fdcee3be3ca5b3b3e5}{exploser\+Bombe}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&po, \mbox{\hyperlink{class_terrain}{Terrain}} \&ter, \mbox{\hyperlink{class_bombe}{Bombe}} \&b)
+\begin{DoxyCompactList}\small\item\em Fonction qui permet l\textquotesingle{}explosion d\textquotesingle{}une bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_jeu_aad32110d0a77627afdaa59ffebce52ae}{placer\+Bombe}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&po, \mbox{\hyperlink{class_terrain}{Terrain}} \&ter, \mbox{\hyperlink{class_bombe}{Bombe}} \&b)
+\begin{DoxyCompactList}\small\item\em Fonction qui permet de placer une bombe sur le terrain en fonction des positions d\textquotesingle{}un personnage. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_jeu_a591db9c0b118e106becaadc70c017cd2}{place\+Et\+Explose}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&po, \mbox{\hyperlink{class_terrain}{Terrain}} \&ter, \mbox{\hyperlink{class_bombe}{Bombe}} \&b)
+\begin{DoxyCompactList}\small\item\em Permet de placer et de faire exploser les briques autour d\textquotesingle{}une bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_jeu_a9655744d3cf1e57346c60d5c20abc84f}{tuer\+Perso}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&po, \mbox{\hyperlink{class_terrain}{Terrain}} \&ter, \mbox{\hyperlink{class_bombe}{Bombe}} \&b)
+\begin{DoxyCompactList}\small\item\em Permet de placer et de faire exploser les briques autour d\textquotesingle{}une bombe. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_jeu_ade1ab5178f7701c17b2309ba36f6eabd}{action\+Clavier}} (const char touche)
+\begin{DoxyCompactList}\small\item\em Permet de réaliser une action en appuyant sur une touche du clavier. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_jeu_acc5795ee00edf75516d3dfe65be3e6d6}\label{class_jeu_acc5795ee00edf75516d3dfe65be3e6d6}} 
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{Jeu()}{Jeu()}}
+{\footnotesize\ttfamily Jeu\+::\+Jeu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+constructeur par défaut de la classe jeu 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_jeu_ade1ab5178f7701c17b2309ba36f6eabd}\label{class_jeu_ade1ab5178f7701c17b2309ba36f6eabd}} 
+\index{Jeu@{Jeu}!actionClavier@{actionClavier}}
+\index{actionClavier@{actionClavier}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{actionClavier()}{actionClavier()}}
+{\footnotesize\ttfamily bool Jeu\+::action\+Clavier (\begin{DoxyParamCaption}\item[{const char}]{touche }\end{DoxyParamCaption})}
+
+
+
+Permet de réaliser une action en appuyant sur une touche du clavier. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em touche} & \+: caractère \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_a5b1df4606c4d64fdcee3be3ca5b3b3e5}\label{class_jeu_a5b1df4606c4d64fdcee3be3ca5b3b3e5}} 
+\index{Jeu@{Jeu}!exploserBombe@{exploserBombe}}
+\index{exploserBombe@{exploserBombe}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{exploserBombe()}{exploserBombe()}}
+{\footnotesize\ttfamily void Jeu\+::exploser\+Bombe (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personnage}{Personnage}} \&}]{po,  }\item[{\mbox{\hyperlink{class_terrain}{Terrain}} \&}]{ter,  }\item[{\mbox{\hyperlink{class_bombe}{Bombe}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+Fonction qui permet l\textquotesingle{}explosion d\textquotesingle{}une bombe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em po} & \+: personnage \\
+\hline
+{\em ter} & \+: terrain \\
+\hline
+{\em b} & \+: bombe \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_a8e47b08f1abecd748e0dcffad78305a2}\label{class_jeu_a8e47b08f1abecd748e0dcffad78305a2}} 
+\index{Jeu@{Jeu}!getBombe@{getBombe}}
+\index{getBombe@{getBombe}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{getBombe()}{getBombe()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_bombe}{Bombe}} \& Jeu\+::get\+Bombe (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+accesseur \+: permet d\textquotesingle{}accéder à une bombe 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_ab967da40a54916418347e8107c2dbd95}\label{class_jeu_ab967da40a54916418347e8107c2dbd95}} 
+\index{Jeu@{Jeu}!getConstBombe@{getConstBombe}}
+\index{getConstBombe@{getConstBombe}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{getConstBombe()}{getConstBombe()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_bombe}{Bombe}} \& Jeu\+::get\+Const\+Bombe (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption}) const}
+
+
+
+accesseur \+: permet d\textquotesingle{}accéder à une bombe 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_afc74d188743db3d2d4abab9125779edb}\label{class_jeu_afc74d188743db3d2d4abab9125779edb}} 
+\index{Jeu@{Jeu}!getConstPerso@{getConstPerso}}
+\index{getConstPerso@{getConstPerso}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{getConstPerso()}{getConstPerso()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_personnage}{Personnage}} \& Jeu\+::get\+Const\+Perso (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+accesseur \+: permet d\textquotesingle{}accéder à un personnage 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_af7e7bd59e117f78b9d8623fd76230ca3}\label{class_jeu_af7e7bd59e117f78b9d8623fd76230ca3}} 
+\index{Jeu@{Jeu}!getConstTerrain@{getConstTerrain}}
+\index{getConstTerrain@{getConstTerrain}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{getConstTerrain()}{getConstTerrain()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_terrain}{Terrain}} \& Jeu\+::get\+Const\+Terrain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+accesseur \+: permet d\textquotesingle{}accéder au terrain 
+
+\mbox{\Hypertarget{class_jeu_a1153cc2d3b5d468d3abcc561bb43edfd}\label{class_jeu_a1153cc2d3b5d468d3abcc561bb43edfd}} 
+\index{Jeu@{Jeu}!getPerso@{getPerso}}
+\index{getPerso@{getPerso}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{getPerso()}{getPerso()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_personnage}{Personnage}} \& Jeu\+::get\+Perso (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+accesseur \+: permet d\textquotesingle{}accéder à un personnage 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_a4b5b107671761a6bb963475bf4ecc8dd}\label{class_jeu_a4b5b107671761a6bb963475bf4ecc8dd}} 
+\index{Jeu@{Jeu}!getTerrain@{getTerrain}}
+\index{getTerrain@{getTerrain}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{getTerrain()}{getTerrain()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_terrain}{Terrain}} \& Jeu\+::get\+Terrain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+accesseur \+: permet d\textquotesingle{}accéder au terrain 
+
+\mbox{\Hypertarget{class_jeu_a591db9c0b118e106becaadc70c017cd2}\label{class_jeu_a591db9c0b118e106becaadc70c017cd2}} 
+\index{Jeu@{Jeu}!placeEtExplose@{placeEtExplose}}
+\index{placeEtExplose@{placeEtExplose}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{placeEtExplose()}{placeEtExplose()}}
+{\footnotesize\ttfamily void Jeu\+::place\+Et\+Explose (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personnage}{Personnage}} \&}]{po,  }\item[{\mbox{\hyperlink{class_terrain}{Terrain}} \&}]{ter,  }\item[{\mbox{\hyperlink{class_bombe}{Bombe}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+Permet de placer et de faire exploser les briques autour d\textquotesingle{}une bombe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em po} & \+: personnage \\
+\hline
+{\em ter} & \+: terrain \\
+\hline
+{\em b} & \+: bombe \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_aad32110d0a77627afdaa59ffebce52ae}\label{class_jeu_aad32110d0a77627afdaa59ffebce52ae}} 
+\index{Jeu@{Jeu}!placerBombe@{placerBombe}}
+\index{placerBombe@{placerBombe}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{placerBombe()}{placerBombe()}}
+{\footnotesize\ttfamily void Jeu\+::placer\+Bombe (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personnage}{Personnage}} \&}]{po,  }\item[{\mbox{\hyperlink{class_terrain}{Terrain}} \&}]{ter,  }\item[{\mbox{\hyperlink{class_bombe}{Bombe}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+Fonction qui permet de placer une bombe sur le terrain en fonction des positions d\textquotesingle{}un personnage. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em po} & \+: personnage \\
+\hline
+{\em ter} & \+: terrain \\
+\hline
+{\em b} & \+: bombe \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_a9655744d3cf1e57346c60d5c20abc84f}\label{class_jeu_a9655744d3cf1e57346c60d5c20abc84f}} 
+\index{Jeu@{Jeu}!tuerPerso@{tuerPerso}}
+\index{tuerPerso@{tuerPerso}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{tuerPerso()}{tuerPerso()}}
+{\footnotesize\ttfamily void Jeu\+::tuer\+Perso (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personnage}{Personnage}} \&}]{po,  }\item[{\mbox{\hyperlink{class_terrain}{Terrain}} \&}]{ter,  }\item[{\mbox{\hyperlink{class_bombe}{Bombe}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+Permet de placer et de faire exploser les briques autour d\textquotesingle{}une bombe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em po} & \+: personnage \\
+\hline
+{\em ter} & \+: terrain \\
+\hline
+{\em b} & \+: bombe \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_jeu_a33412d6a501c50a273f7da0e7c0b8a97}\label{class_jeu_a33412d6a501c50a273f7da0e7c0b8a97}} 
+\index{Jeu@{Jeu}!updatePosBombe@{updatePosBombe}}
+\index{updatePosBombe@{updatePosBombe}!Jeu@{Jeu}}
+\doxysubsubsection{\texorpdfstring{updatePosBombe()}{updatePosBombe()}}
+{\footnotesize\ttfamily void Jeu\+::update\+Pos\+Bombe (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personnage}{Personnage}} \&}]{po,  }\item[{\mbox{\hyperlink{class_terrain}{Terrain}} \&}]{ter,  }\item[{\mbox{\hyperlink{class_bombe}{Bombe}} \&}]{b }\end{DoxyParamCaption})}
+
+
+
+Fonction qui met à jour les positions de la bombe sur le terrain en fonction du personnage. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em po} & \+: personnage \\
+\hline
+{\em ter} & \+: terrain \\
+\hline
+{\em b} & \+: bombe \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/core/\mbox{\hyperlink{_jeu_8h}{Jeu.\+h}}\item 
+src/core/\mbox{\hyperlink{_jeu_8cpp}{Jeu.\+cpp}}\end{DoxyCompactItemize}

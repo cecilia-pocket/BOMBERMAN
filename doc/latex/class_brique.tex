@@ -1,0 +1,180 @@
+\hypertarget{class_brique}{}\doxysection{Brique Class Reference}
+\label{class_brique}\index{Brique@{Brique}}
+
+
+{\ttfamily \#include $<$Brique.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_brique_af93ac8355acc548d3e124fea00850fce}{Brique}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \+: \+: mise à jour de posX et posY à 0, détruit à false, type\+Bonus à N\+U\+LL, et couleur à noir. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_brique_a8992d71dbe102df0241a72edaaf47e66}{Brique}} (unsigned int x, unsigned int y, bool det, string type\+Bon, \mbox{\hyperlink{class_couleur}{Couleur}} c)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \+: initialise sa position, si il a un bonus, son type de bonus et sa couleur. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_brique_ab1a5a3fdfe4aa5a1e79bc84744507e99}{get\+PosX}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la position en X d\textquotesingle{}une brique. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_brique_a48c2fa13966a87ce4264d74735dc3424}{get\+PosY}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la position en X d\textquotesingle{}une brique. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_brique_af7e62ae186d14da6b41638d3a8369179}{get\+Detruit}} ()
+\begin{DoxyCompactList}\small\item\em Accesseur de l\textquotesingle{}état d\textquotesingle{}une brique. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_brique_a614e91df86a98b2278951cf116ddbd14}{set\+Detruit}} (bool det)
+\begin{DoxyCompactList}\small\item\em Mutateur de l\textquotesingle{}état d\textquotesingle{}une brique. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_brique_afbb3ae9dc0844843fde0f40447028ef3}{set\+Pos\+XY}} (unsigned int x, unsigned int y)
+\begin{DoxyCompactList}\small\item\em Mutateur de la position d\textquotesingle{}une brique. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{class_brique_ab6fafb2f3f2003177b9558bda135733a}{posX}}
+\begin{DoxyCompactList}\small\item\em Position de la brique. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_brique_a9cd9d7d0ade26d2eaab2c0c26eaa83c4}{posY}}
+\item 
+bool \mbox{\hyperlink{class_brique_afdaebbf4087fe0c0b32a10a4db1dbcba}{detruit}}
+\begin{DoxyCompactList}\small\item\em Booléen pour indiquer si la brique est détruite. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_brique_a98605e0d89ce6ea321959a94db6565e2}{bonus}}
+\begin{DoxyCompactList}\small\item\em Booléen pour indiquer si la brique contient un bonus. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_brique_af93ac8355acc548d3e124fea00850fce}\label{class_brique_af93ac8355acc548d3e124fea00850fce}} 
+\index{Brique@{Brique}!Brique@{Brique}}
+\index{Brique@{Brique}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{Brique()}{Brique()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Brique\+::\+Brique (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut de la classe \+: \+: mise à jour de posX et posY à 0, détruit à false, type\+Bonus à N\+U\+LL, et couleur à noir. 
+
+\mbox{\Hypertarget{class_brique_a8992d71dbe102df0241a72edaaf47e66}\label{class_brique_a8992d71dbe102df0241a72edaaf47e66}} 
+\index{Brique@{Brique}!Brique@{Brique}}
+\index{Brique@{Brique}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{Brique()}{Brique()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Brique\+::\+Brique (\begin{DoxyParamCaption}\item[{unsigned int}]{x,  }\item[{unsigned int}]{y,  }\item[{bool}]{det,  }\item[{string}]{type\+Bon,  }\item[{\mbox{\hyperlink{class_couleur}{Couleur}}}]{c }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \+: initialise sa position, si il a un bonus, son type de bonus et sa couleur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: entier non signé \\
+\hline
+{\em y} & \+: entier non signé \\
+\hline
+{\em det} & \+: booléen \\
+\hline
+{\em type\+Bon} & \+: chaîne de caractères \\
+\hline
+{\em c} & \+: \mbox{\hyperlink{class_couleur}{Couleur}} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_brique_af7e62ae186d14da6b41638d3a8369179}\label{class_brique_af7e62ae186d14da6b41638d3a8369179}} 
+\index{Brique@{Brique}!getDetruit@{getDetruit}}
+\index{getDetruit@{getDetruit}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{getDetruit()}{getDetruit()}}
+{\footnotesize\ttfamily bool Brique\+::get\+Detruit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur de l\textquotesingle{}état d\textquotesingle{}une brique. 
+
+\mbox{\Hypertarget{class_brique_ab1a5a3fdfe4aa5a1e79bc84744507e99}\label{class_brique_ab1a5a3fdfe4aa5a1e79bc84744507e99}} 
+\index{Brique@{Brique}!getPosX@{getPosX}}
+\index{getPosX@{getPosX}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{getPosX()}{getPosX()}}
+{\footnotesize\ttfamily unsigned int Brique\+::get\+PosX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la position en X d\textquotesingle{}une brique. 
+
+\mbox{\Hypertarget{class_brique_a48c2fa13966a87ce4264d74735dc3424}\label{class_brique_a48c2fa13966a87ce4264d74735dc3424}} 
+\index{Brique@{Brique}!getPosY@{getPosY}}
+\index{getPosY@{getPosY}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{getPosY()}{getPosY()}}
+{\footnotesize\ttfamily unsigned int Brique\+::get\+PosY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la position en X d\textquotesingle{}une brique. 
+
+\mbox{\Hypertarget{class_brique_a614e91df86a98b2278951cf116ddbd14}\label{class_brique_a614e91df86a98b2278951cf116ddbd14}} 
+\index{Brique@{Brique}!setDetruit@{setDetruit}}
+\index{setDetruit@{setDetruit}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{setDetruit()}{setDetruit()}}
+{\footnotesize\ttfamily void Brique\+::set\+Detruit (\begin{DoxyParamCaption}\item[{bool}]{det }\end{DoxyParamCaption})}
+
+
+
+Mutateur de l\textquotesingle{}état d\textquotesingle{}une brique. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em det} & \+: booléen \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_brique_afbb3ae9dc0844843fde0f40447028ef3}\label{class_brique_afbb3ae9dc0844843fde0f40447028ef3}} 
+\index{Brique@{Brique}!setPosXY@{setPosXY}}
+\index{setPosXY@{setPosXY}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{setPosXY()}{setPosXY()}}
+{\footnotesize\ttfamily void Brique\+::set\+Pos\+XY (\begin{DoxyParamCaption}\item[{unsigned int}]{x,  }\item[{unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la position d\textquotesingle{}une brique. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: entier non signé \\
+\hline
+{\em y} & \+: entier non signé \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_brique_a98605e0d89ce6ea321959a94db6565e2}\label{class_brique_a98605e0d89ce6ea321959a94db6565e2}} 
+\index{Brique@{Brique}!bonus@{bonus}}
+\index{bonus@{bonus}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{bonus}{bonus}}
+{\footnotesize\ttfamily bool Brique\+::bonus}
+
+
+
+Booléen pour indiquer si la brique contient un bonus. 
+
+\mbox{\Hypertarget{class_brique_afdaebbf4087fe0c0b32a10a4db1dbcba}\label{class_brique_afdaebbf4087fe0c0b32a10a4db1dbcba}} 
+\index{Brique@{Brique}!detruit@{detruit}}
+\index{detruit@{detruit}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{detruit}{detruit}}
+{\footnotesize\ttfamily bool Brique\+::detruit}
+
+
+
+Booléen pour indiquer si la brique est détruite. 
+
+\mbox{\Hypertarget{class_brique_ab6fafb2f3f2003177b9558bda135733a}\label{class_brique_ab6fafb2f3f2003177b9558bda135733a}} 
+\index{Brique@{Brique}!posX@{posX}}
+\index{posX@{posX}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{posX}{posX}}
+{\footnotesize\ttfamily unsigned int Brique\+::posX}
+
+
+
+Position de la brique. 
+
+\mbox{\Hypertarget{class_brique_a9cd9d7d0ade26d2eaab2c0c26eaa83c4}\label{class_brique_a9cd9d7d0ade26d2eaab2c0c26eaa83c4}} 
+\index{Brique@{Brique}!posY@{posY}}
+\index{posY@{posY}!Brique@{Brique}}
+\doxysubsubsection{\texorpdfstring{posY}{posY}}
+{\footnotesize\ttfamily unsigned int Brique\+::posY}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/core/\mbox{\hyperlink{_brique_8h}{Brique.\+h}}\item 
+src/core/\mbox{\hyperlink{_brique_8cpp}{Brique.\+cpp}}\end{DoxyCompactItemize}

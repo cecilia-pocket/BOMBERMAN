@@ -1,0 +1,197 @@
+\hypertarget{class_bombe}{}\doxysection{Bombe Class Reference}
+\label{class_bombe}\index{Bombe@{Bombe}}
+
+
+{\ttfamily \#include $<$Bombe.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bombe_ab1180ab57cf9815826a6084ac6653288}{Bombe}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \+: initialise la position à 0 et la portée à 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bombe_a22b50ddf20356b1fda851737a10d00b3}{Bombe}} (unsigned int positionX, unsigned int positionY, int nouv\+Portee)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \+: initialise la position avec positionX, positionY et la portée avec nouv\+Portee. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_bombe_a20431845dfc797baa338c29c165dffdc}{get\+PosX}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur \+: récupère la position X de la bombe. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_bombe_ad08a43f3c72fea9d4ab7c48a637612df}{get\+PosY}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur \+: récupère la position Y de la bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bombe_ad8ca5f0c58472d7e4e5a51cabb9feee9}{set\+Pos}} (unsigned int x, unsigned int y)
+\begin{DoxyCompactList}\small\item\em Mutateur \+: modifie la position de la bombe. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bombe_a71427330b463fb940754dc117dd03c4f}{get\+Portee}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur \+: récupère la portée de la bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bombe_a4777557a56d0ead81b111466184ae1be}{set\+Portee}} (int p)
+\begin{DoxyCompactList}\small\item\em Mutateur \+: modifie la portée de la bombe. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bombe_a6597848d27e9cd7b7e9a554cc2bdf12e}{get\+Temps\+Explo}} ()
+\begin{DoxyCompactList}\small\item\em Accesseur \+: accède au temps d\textquotesingle{}explosion de la bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bombe_add685d6063b79967d822c7e26df5178c}{set\+Temps\+Explo}} (int t)
+\begin{DoxyCompactList}\small\item\em Mutateur \+: modifie le temps d\textquotesingle{}explosion de la bombe. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bombe_a54b4650469616302fe6e5d0d9f6413cd}{compteur\+Explo}} ()
+\begin{DoxyCompactList}\small\item\em Fonction qui définit un compteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{class_bombe_aacf04724b967ba4c001a5b8a28fb492d}{temps\+Explosion}}
+\begin{DoxyCompactList}\small\item\em Temps avant l\textquotesingle{}explosion de la bombe. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_bombe_ac52e1ba8844e7f4ce3815d67b0305bf6}{est\+Sur\+Le\+Terrain}}
+\begin{DoxyCompactList}\small\item\em Booléen vrai si la bombe est sur le terrain. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bombe_ab1180ab57cf9815826a6084ac6653288}\label{class_bombe_ab1180ab57cf9815826a6084ac6653288}} 
+\index{Bombe@{Bombe}!Bombe@{Bombe}}
+\index{Bombe@{Bombe}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{Bombe()}{Bombe()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Bombe\+::\+Bombe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur par défaut de la classe \+: initialise la position à 0 et la portée à 0. 
+
+\mbox{\Hypertarget{class_bombe_a22b50ddf20356b1fda851737a10d00b3}\label{class_bombe_a22b50ddf20356b1fda851737a10d00b3}} 
+\index{Bombe@{Bombe}!Bombe@{Bombe}}
+\index{Bombe@{Bombe}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{Bombe()}{Bombe()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Bombe\+::\+Bombe (\begin{DoxyParamCaption}\item[{unsigned int}]{positionX,  }\item[{unsigned int}]{positionY,  }\item[{int}]{nouv\+Portee }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \+: initialise la position avec positionX, positionY et la portée avec nouv\+Portee. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em positionX} & \+: unsigned int \\
+\hline
+{\em positionY} & \+: unsigned int \\
+\hline
+{\em nouv\+Portee} & \+: int \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bombe_a54b4650469616302fe6e5d0d9f6413cd}\label{class_bombe_a54b4650469616302fe6e5d0d9f6413cd}} 
+\index{Bombe@{Bombe}!compteurExplo@{compteurExplo}}
+\index{compteurExplo@{compteurExplo}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{compteurExplo()}{compteurExplo()}}
+{\footnotesize\ttfamily void Bombe\+::compteur\+Explo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction qui définit un compteur. 
+
+\mbox{\Hypertarget{class_bombe_a71427330b463fb940754dc117dd03c4f}\label{class_bombe_a71427330b463fb940754dc117dd03c4f}} 
+\index{Bombe@{Bombe}!getPortee@{getPortee}}
+\index{getPortee@{getPortee}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{getPortee()}{getPortee()}}
+{\footnotesize\ttfamily int Bombe\+::get\+Portee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur \+: récupère la portée de la bombe. 
+
+\mbox{\Hypertarget{class_bombe_a20431845dfc797baa338c29c165dffdc}\label{class_bombe_a20431845dfc797baa338c29c165dffdc}} 
+\index{Bombe@{Bombe}!getPosX@{getPosX}}
+\index{getPosX@{getPosX}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{getPosX()}{getPosX()}}
+{\footnotesize\ttfamily unsigned int Bombe\+::get\+PosX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur \+: récupère la position X de la bombe. 
+
+\mbox{\Hypertarget{class_bombe_ad08a43f3c72fea9d4ab7c48a637612df}\label{class_bombe_ad08a43f3c72fea9d4ab7c48a637612df}} 
+\index{Bombe@{Bombe}!getPosY@{getPosY}}
+\index{getPosY@{getPosY}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{getPosY()}{getPosY()}}
+{\footnotesize\ttfamily unsigned int Bombe\+::get\+PosY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur \+: récupère la position Y de la bombe. 
+
+\mbox{\Hypertarget{class_bombe_a6597848d27e9cd7b7e9a554cc2bdf12e}\label{class_bombe_a6597848d27e9cd7b7e9a554cc2bdf12e}} 
+\index{Bombe@{Bombe}!getTempsExplo@{getTempsExplo}}
+\index{getTempsExplo@{getTempsExplo}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{getTempsExplo()}{getTempsExplo()}}
+{\footnotesize\ttfamily int Bombe\+::get\+Temps\+Explo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur \+: accède au temps d\textquotesingle{}explosion de la bombe. 
+
+\mbox{\Hypertarget{class_bombe_a4777557a56d0ead81b111466184ae1be}\label{class_bombe_a4777557a56d0ead81b111466184ae1be}} 
+\index{Bombe@{Bombe}!setPortee@{setPortee}}
+\index{setPortee@{setPortee}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{setPortee()}{setPortee()}}
+{\footnotesize\ttfamily void Bombe\+::set\+Portee (\begin{DoxyParamCaption}\item[{int}]{p }\end{DoxyParamCaption})}
+
+
+
+Mutateur \+: modifie la portée de la bombe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: int \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bombe_ad8ca5f0c58472d7e4e5a51cabb9feee9}\label{class_bombe_ad8ca5f0c58472d7e4e5a51cabb9feee9}} 
+\index{Bombe@{Bombe}!setPos@{setPos}}
+\index{setPos@{setPos}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{setPos()}{setPos()}}
+{\footnotesize\ttfamily void Bombe\+::set\+Pos (\begin{DoxyParamCaption}\item[{unsigned int}]{x,  }\item[{unsigned int}]{y }\end{DoxyParamCaption})}
+
+
+
+Mutateur \+: modifie la position de la bombe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: unsigned int \\
+\hline
+{\em y} & \+: unsigned int \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bombe_add685d6063b79967d822c7e26df5178c}\label{class_bombe_add685d6063b79967d822c7e26df5178c}} 
+\index{Bombe@{Bombe}!setTempsExplo@{setTempsExplo}}
+\index{setTempsExplo@{setTempsExplo}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{setTempsExplo()}{setTempsExplo()}}
+{\footnotesize\ttfamily void Bombe\+::set\+Temps\+Explo (\begin{DoxyParamCaption}\item[{int}]{t }\end{DoxyParamCaption})}
+
+
+
+Mutateur \+: modifie le temps d\textquotesingle{}explosion de la bombe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: int \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bombe_ac52e1ba8844e7f4ce3815d67b0305bf6}\label{class_bombe_ac52e1ba8844e7f4ce3815d67b0305bf6}} 
+\index{Bombe@{Bombe}!estSurLeTerrain@{estSurLeTerrain}}
+\index{estSurLeTerrain@{estSurLeTerrain}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{estSurLeTerrain}{estSurLeTerrain}}
+{\footnotesize\ttfamily bool Bombe\+::est\+Sur\+Le\+Terrain}
+
+
+
+Booléen vrai si la bombe est sur le terrain. 
+
+\mbox{\Hypertarget{class_bombe_aacf04724b967ba4c001a5b8a28fb492d}\label{class_bombe_aacf04724b967ba4c001a5b8a28fb492d}} 
+\index{Bombe@{Bombe}!tempsExplosion@{tempsExplosion}}
+\index{tempsExplosion@{tempsExplosion}!Bombe@{Bombe}}
+\doxysubsubsection{\texorpdfstring{tempsExplosion}{tempsExplosion}}
+{\footnotesize\ttfamily unsigned int Bombe\+::temps\+Explosion}
+
+
+
+Temps avant l\textquotesingle{}explosion de la bombe. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/core/\mbox{\hyperlink{_bombe_8h}{Bombe.\+h}}\item 
+src/core/\mbox{\hyperlink{_bombe_8cpp}{Bombe.\+cpp}}\end{DoxyCompactItemize}
