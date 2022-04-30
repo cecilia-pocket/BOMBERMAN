@@ -1,8 +1,8 @@
 # Bomberman
 
 ## 🎓 Étudiants :
-K. C.
-A. V.
+K. C.  
+A. V.  
 Cécilia NGUYEN
 
 ## Diagramme des classes
